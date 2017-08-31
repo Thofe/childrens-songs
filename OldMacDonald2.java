@@ -20,6 +20,7 @@ public class OldMacDonald2
 
     /**
      * Prints the part of the song with animal and EIEIO
+     * @param animal (as a word) describes what animal is doing the action
      */
     public static void hadA(String animal) 
     { 
@@ -28,6 +29,7 @@ public class OldMacDonald2
 
     /**
      * Prints the part with the animal sounds
+     * @param sound (as a word) describes the sound the animal makes
      */
     public static void withA(String sound) 
     { 
@@ -37,6 +39,8 @@ public class OldMacDonald2
 
     /**
      * Puts the lines together by calling the previous functions 
+     * @param animal (as a word) describes what animal is doing the action
+     * @param sound (as a word) describes the sound the animal makes
      */
     public static void singIt(String animal, String sound) 
     {
